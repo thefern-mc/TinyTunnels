@@ -42,13 +42,13 @@ public final class ModBlocks {
     public static final DeferredBlock<RedstoneTunnelWallBlock> REDSTONE_TUNNEL_WALL = BLOCKS.registerBlock("redstone_tunnel_wall", RedstoneTunnelWallBlock::new, ModBlocks::wallProperties);
 
     private static BlockBehaviour.Properties wallProperties(BlockBehaviour.Properties p) {
-        return p.mapColor(MapColor.COLOR_GRAY)
+        return p.mapColor(MapColor.WOOL)
                 .sound(SoundType.METAL)
                 .strength(-1f, 3_600_000f)
                 .noLootTable()
                 .pushReaction(PushReaction.BLOCK)
                 .isValidSpawn((state, level, pos, type) -> false)
-                .lightLevel(state -> 12)
+                .lightLevel(state -> 15)
                 .isRedstoneConductor(ModBlocks::never);
     }
 
