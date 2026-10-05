@@ -47,6 +47,6 @@ public class ModModelProvider extends BlockStateProvider {
         });
 
         itemModels().basicItem(ModItems.KINETIC_TUNNEL.get());
-        itemModels().withExistingParent("kinetic_port", modLoc("block/kinetic_port_north"));
+        // itemModels().withExistingParent("kinetic_port", modLoc("block/kinetic_port_north"));
     }
 }
