@@ -1,4 +1,28 @@
 
+Tiny Tunnels: Development Status
+=======
+
+**Heads up for contributors:** active development is not happening on `main` right now.
+
+All current work is on the [`mc1.21.1/dev`](https://github.com/thefern-mc/TinyTunnels/tree/mc1.21.1/dev) branch. Please base any issues, PRs, or testing on that branch.
+
+The rough plan:
+
+1. **Now: 1.21.1 beta.** The 1.21.1 build is in beta, with bug fixes and remaining features landing on `mc1.21.1/dev`.
+2. **After beta (about 4–8 weeks, no fixed date):** once the major bugs are fixed and the planned features are done, I'll come back to `main` and finish the core mod for 26.x.
+3. **Later:** if Create has been released for 26.x by then, the Create addon will be added there too.
+
+### Downloads (1.21.1 beta)
+
+| Mod | CurseForge | Modrinth |
+| --- | --- | --- |
+| Tiny Tunnels (core) | [Beta](https://www.curseforge.com/minecraft/mc-mods/tinytunnels) | [Under review](https://modrinth.com/mod/tiny-tunnels) |
+| Tiny Tunnels: Create addon | [Beta](https://www.curseforge.com/minecraft/mc-mods/tiny-tunnels-create) | [Coming soon](https://modrinth.com/project/tiny-tunnels-create), waiting on core approval so it can be listed as a dependency |
+
+`main` (26.x) will stay mostly quiet until then.
+
+Questions? Open a thread in [GitHub Discussions](https://github.com/thefern-mc/TinyTunnels/discussions) or email fernandobe+git@protonmail.com.
+
 Installation information
 =======
 
